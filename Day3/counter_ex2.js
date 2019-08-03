@@ -18,7 +18,7 @@ class Counter extends Component {
   }
 
   render() {
-    return <h2>Counter Started : {this.state.count}</h2>
+    return <h3>Counter Started : {this.state.count}</h3>
   }
 }
 
