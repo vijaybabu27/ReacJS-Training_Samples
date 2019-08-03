@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import {render} from 'react-dom'
+import '../style.css';
 
 class Day4_IncreDecre extends Component {
 
@@ -26,9 +27,7 @@ class Day4_IncreDecre extends Component {
 
   render(){
     return <div>
-  <button onClick={this.increment}>Increment </button>
-  <h3> Value : {this.state.count} </h3>
-  <button onClick={this.decrement}>Decrement </button>
+  <button onClick={this.increment}>Increment </button><h4> Value : {this.state.count} </h4><button onClick={this.decrement}>Decrement </button>
 </div>
   }
 }
