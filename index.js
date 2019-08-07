@@ -20,4 +20,7 @@ render(<div><h1><u>Day 3 Exercises</u></h1>
       <td class="increWidth" />
       <td><IncreDecreEx2 type='0'/></td></tr>
       </table>
+      <hr />
+      <h1><u>Day 5 Exercises</u></h1>
+      <h2><i>Parent & Child example: -</i></h2>
 </div>, document.getElementById('root'));
