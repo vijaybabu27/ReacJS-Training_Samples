@@ -5,6 +5,7 @@ import Counter from './Day3/counter_ex2.js'
 import {Greetf, Greetc} from './Day3/excercise1.js'
 import IncreDecreEx from './Day4/Incre-Decre_Ex.js'
 import IncreDecreEx2 from './Day4/Incre-Decre_Ex2.js'
+import ParentChildEx from './Day5/ParentChildEx.js'
 
 render(<div><h1><u>Day 3 Exercises</u></h1>
 <h2><i>Excercise 1: -</i></h2>
@@ -23,4 +24,5 @@ render(<div><h1><u>Day 3 Exercises</u></h1>
       <hr />
       <h1><u>Day 5 Exercises</u></h1>
       <h2><i>Parent & Child example: -</i></h2>
+      <ParentChildEx />
 </div>, document.getElementById('root'));
