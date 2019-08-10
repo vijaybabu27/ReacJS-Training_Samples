@@ -7,6 +7,7 @@ import IncreDecreEx from './Day4/Incre-Decre_Ex.js'
 import IncreDecreEx2 from './Day4/Incre-Decre_Ex2.js'
 import ParentChildEx from './Day5/ParentChildEx.js'
 import FormComponentEx from './Day6/FormComponentEx.js'
+import RouteEx from './Day8/RouteEx.js'
 
 render(<div><h1><u>Day 3 Exercises</u></h1>
 <h2><i>Excercise 1: -</i></h2>
@@ -30,4 +31,8 @@ render(<div><h1><u>Day 3 Exercises</u></h1>
       <h1><u>Day 6 Exercises</u></h1>
       <h2><i>Form Component example: -</i></h2>
       <FormComponentEx />
+      <hr />
+      <h1><u>Day 8 Exercises</u></h1>
+      <h2><i>Route example: -</i></h2>
+      <RouteEx />
 </div>, document.getElementById('root'));
